@@ -87662,7 +87662,7 @@ o=$.lt
 if(o==null)o=new A.q9(A.JO(null))
 $.lt=o
 s=3
-return A.L(o.aik(a,"http://13.235.119.0/api/","auction","GET",new A.a0_(),A.au(["Accept","application/json"],t.N,t.z),new A.a00(p)),$async$rl)
+return A.L(o.aik(a,"https://13.235.119.0/api/","auction","GET",new A.a0_(),A.au(["Accept","application/json"],t.N,t.z),new A.a00(p)),$async$rl)
 case 3:q=p
 s=1
 break
@@ -87675,7 +87675,7 @@ while(true)switch(s){case 0:q=$.lt
 if(q==null)q=new A.q9(A.JO(null))
 $.lt=q
 s=2
-return A.L(q.Tl(b,"http://13.235.119.0/api/","auction/"+a,"DELETE",new A.a_W(),new A.a_X()),$async$zi)
+return A.L(q.Tl(b,"https://13.235.119.0/api/","auction/"+a,"DELETE",new A.a_W(),new A.a_X()),$async$zi)
 case 2:return A.H(null,r)}})
 return A.I($async$zi,r)},
 Bx(a,b){return this.ar1(a,b)},
@@ -87685,7 +87685,7 @@ while(true)switch(s){case 0:q=$.lt
 if(q==null)q=new A.q9(A.JO(null))
 $.lt=q
 s=2
-return A.L(q.Tm(a,"http://13.235.119.0/api/","pricing?auction_code="+J.ax(b.b),"POST",new A.a01(),A.au(["title",b.c,"number_of_teams",b.d,"description",b.e,"phoneNo",b.r,"price",b.f,"paymentStatus",b.w,"paymentDate",b.x,"paymentScreenshot",b.y],t.N,t.X),new A.a02()),$async$Bx)
+return A.L(q.Tm(a,"https://13.235.119.0/api/","pricing?auction_code="+J.ax(b.b),"POST",new A.a01(),A.au(["title",b.c,"number_of_teams",b.d,"description",b.e,"phoneNo",b.r,"price",b.f,"paymentStatus",b.w,"paymentDate",b.x,"paymentScreenshot",b.y],t.N,t.X),new A.a02()),$async$Bx)
 case 2:return A.H(null,r)}})
 return A.I($async$Bx,r)},
 By(a,b){return this.ar4(a,b)},
@@ -87695,7 +87695,7 @@ while(true)switch(s){case 0:q=$.lt
 if(q==null)q=new A.q9(A.JO(null))
 $.lt=q
 s=2
-return A.L(q.Tm(a,"http://13.235.119.0/api/","pricing?id="+J.ax(b.a),"POST",new A.a03(),A.au(["auction_code",b.b,"title",b.c,"number_of_teams",b.d,"description",b.e,"phoneNo",b.r,"price",b.f,"paymentStatus",b.w,"paymentDate",b.x,"paymentScreenshot",b.y],t.N,t.X),new A.a04()),$async$By)
+return A.L(q.Tm(a,"https://13.235.119.0/api/","pricing?id="+J.ax(b.a),"POST",new A.a03(),A.au(["auction_code",b.b,"title",b.c,"number_of_teams",b.d,"description",b.e,"phoneNo",b.r,"price",b.f,"paymentStatus",b.w,"paymentDate",b.x,"paymentScreenshot",b.y],t.N,t.X),new A.a04()),$async$By)
 case 2:return A.H(null,r)}})
 return A.I($async$By,r)},
 zj(a,b){return this.ak9(a,b)},
@@ -87705,7 +87705,7 @@ while(true)switch(s){case 0:q=$.lt
 if(q==null)q=new A.q9(A.JO(null))
 $.lt=q
 s=2
-return A.L(q.Tl(a,"http://13.235.119.0/api/","pricing/"+b,"DELETE",new A.a_Y(),new A.a_Z()),$async$zj)
+return A.L(q.Tl(a,"https://13.235.119.0/api/","pricing/"+b,"DELETE",new A.a_Y(),new A.a_Z()),$async$zj)
 case 2:return A.H(null,r)}})
 return A.I($async$zj,r)}}
 A.a00.prototype={
